@@ -1,13 +1,13 @@
-import AudioContext from './src/AudioContext.js'
-import AudioParam from './src/AudioParam.js'
-import AudioNode from './src/AudioNode.js'
-import AudioDestinationNode from './src/AudioDestinationNode.js'
-import AudioBuffer from './src/AudioBuffer.js'
-import AudioBufferSourceNode from './src/AudioBufferSourceNode.js'
-import GainNode from './src/GainNode.js'
-import constants from './src/constants.js'
+const AudioContext = require('./src/AudioContext.js')
+const AudioParam = require('./src/AudioParam.js')
+const AudioNode = require('./src/AudioNode.js')
+const AudioDestinationNode = require('./src/AudioDestinationNode.js')
+const AudioBuffer = require('./src/AudioBuffer.js')
+const AudioBufferSourceNode = require('./src/AudioBufferSourceNode.js')
+const GainNode = require('./src/GainNode.js')
+const constants = require('./src/constants.js')
 
-export {
+module.exports = {
   AudioContext,
   AudioParam,
   AudioNode,

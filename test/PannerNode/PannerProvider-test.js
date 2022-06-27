@@ -1,7 +1,7 @@
-import assert from 'assert'
-import {BLOCK_SIZE} from '../../src/constants.js'
-import PannerProvider from '../../src/PannerNode/PannerProvider.js'
-import EqualPowerPanner from '../../src/PannerNode/EqualPowerPanner.js'
+const assert = require('assert')
+const {BLOCK_SIZE} = require('../../src/constants.js')
+const PannerProvider = require('../../src/PannerNode/PannerProvider.js')
+const EqualPowerPanner = require('../../src/PannerNode/EqualPowerPanner.js')
 
 describe('PannerProvider', function() {
 

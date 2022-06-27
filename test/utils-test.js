@@ -1,9 +1,9 @@
-import _ from 'underscore'
-import fs from 'fs'
-import assert from 'assert'
-import AudioBuffer from '../src/AudioBuffer.js'
-import * as utils from '../src/utils.js'
-import initHelpers from './helpers.js'
+const _ = require('underscore')
+const fs = require('fs')
+const assert = require('assert')
+const AudioBuffer = require('../src/AudioBuffer.js')
+const utils = require('../src/utils.js')
+const initHelpers = require('./helpers.js')
 
 let helpers = initHelpers({approx: 0.0005})
 const {assertAllValuesApprox, assertApproxEqual} = helpers

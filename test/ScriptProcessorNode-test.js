@@ -1,10 +1,10 @@
-import _ from 'underscore'
-import assert from 'assert'
-import ScriptProcessorNode from '../src/ScriptProcessorNode.js'
-import AudioNode from '../src/AudioNode.js'
-import AudioBuffer from '../src/AudioBuffer.js'
-import { BLOCK_SIZE } from '../src/constants.js'
-import initHelpers from './helpers.js'
+const _ = require('underscore')
+const assert = require('assert')
+const ScriptProcessorNode = require('../src/ScriptProcessorNode.js')
+const AudioNode = require('../src/AudioNode.js')
+const AudioBuffer = require('../src/AudioBuffer.js')
+const { BLOCK_SIZE } = require('../src/constants.js')
+const initHelpers = require('./helpers.js')
 
 let helpers = initHelpers()
 

@@ -1,5 +1,6 @@
-import * as mathUtils from '../mathUtils.js'
-import InvalidStateError from '../InvalidStateError.js'
+'use strict'
+const mathUtils = require('../mathUtils')
+const InvalidStateError = require('../InvalidStateError.js')
 
 /**
  * Computes cone effect gain and manages related properties.
@@ -80,4 +81,4 @@ class ConeEffect {
 
 }
 
-export default ConeEffect
+module.exports = ConeEffect

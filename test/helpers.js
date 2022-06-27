@@ -1,6 +1,6 @@
-import assert from 'assert'
+const assert = require('assert')
 
-export default function(opts) {
+module.exports = function(opts) {
 
   opts = Object.assign({approx: 0.0001}, opts || {})
 

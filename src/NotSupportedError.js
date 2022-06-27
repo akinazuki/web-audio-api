@@ -1,1 +1,1 @@
-export default class NotSupportedError extends Error {}
+module.exports = class NotSupportedError extends Error {}

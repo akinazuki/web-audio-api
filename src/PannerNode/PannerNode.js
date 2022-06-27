@@ -1,12 +1,13 @@
-import AudioNode from '../AudioNode.js'
-import AudioBuffer from '../AudioBuffer.js'
-import { BLOCK_SIZE } from '../constants.js'
-import FloatPoint3D from '../FloatPoint3D.js'
-import DistanceEffect from './DistanceEffect.js'
-import ConeEffect from './ConeEffect.js'
-import PannerProvider from './PannerProvider.js'
-import * as mathUtils from '../mathUtils.js'
-import NotSupportedError from '../NotSupportedError.js'
+'use strict'
+const AudioNode = require('../AudioNode.js')
+const AudioBuffer = require('../AudioBuffer.js')
+const { BLOCK_SIZE } = require('../constants.js')
+const FloatPoint3D = require('../FloatPoint3D.js')
+const DistanceEffect = require('./DistanceEffect.js')
+const ConeEffect = require('./ConeEffect.js')
+const PannerProvider = require('./PannerProvider.js')
+const mathUtils = require('../mathUtils.js')
+const NotSupportedError = require('../NotSupportedError.js')
 
 var ChannelCountMode = {max:'max', 'clamped-max':'clamped-max', explicit: 'explicit'}
 
@@ -320,4 +321,4 @@ class PannerNode extends AudioNode {
 
 }
 
-export default PannerNode
+module.exports = PannerNode

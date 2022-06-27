@@ -1,1 +1,1 @@
-export default class InvalidStateError extends Error {}
+module.exports = class InvalidStateError extends Error {}

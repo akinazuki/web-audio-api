@@ -1,5 +1,6 @@
-import AudioNode from './AudioNode.js'
-import {readOnlyAttr} from './utils.js'
+'use strict'
+const AudioNode = require('./AudioNode.js')
+const {readOnlyAttr} = require('./utils.js')
 
 
 class AudioDestinationNode extends AudioNode {
@@ -18,4 +19,4 @@ class AudioDestinationNode extends AudioNode {
 }
 
 
-export default AudioDestinationNode
+module.exports = AudioDestinationNode

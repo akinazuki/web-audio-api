@@ -1,5 +1,5 @@
-import assert from 'assert'
-import AudioListener from '../src/AudioListener.js'
+const assert = require('assert')
+const AudioListener = require('../src/AudioListener.js')
 
 describe('AudioListener', function() {
 

@@ -1,8 +1,8 @@
-import assert from 'assert'
-import _ from 'underscore'
-import AudioParam from '../src/AudioParam.js'
-import {BLOCK_SIZE} from '../src/constants.js'
-import initHelpers from './helpers.js'
+const assert = require('assert')
+const _ = require('underscore')
+const AudioParam = require('../src/AudioParam.js')
+const {BLOCK_SIZE} = require('../src/constants.js')
+const initHelpers = require('./helpers.js')
 
 const helpers = initHelpers()
 let {

@@ -1,1 +1,2 @@
-export {default} from './PannerNode.js'
+'use strict'
+module.exports = require('./PannerNode.js')

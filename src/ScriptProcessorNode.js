@@ -1,7 +1,7 @@
-import { BLOCK_SIZE } from './constants.js'
-import AudioNode from './AudioNode.js'
-import AudioBuffer from './AudioBuffer.js'
-import { readOnlyAttr } from './utils.js'
+const { BLOCK_SIZE } = require('./constants.js')
+const AudioNode = require('./AudioNode.js')
+const AudioBuffer = require('./AudioBuffer.js')
+const { readOnlyAttr } = require('./utils.js')
 
 
 class ScriptProcessorNode extends AudioNode {
@@ -68,4 +68,4 @@ class AudioProcessingEvent {
 
 }
 
-export default ScriptProcessorNode
+module.exports = ScriptProcessorNode

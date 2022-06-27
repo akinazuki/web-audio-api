@@ -1,7 +1,7 @@
-import assert from 'assert'
-import sinon from 'sinon'
-import { BLOCK_SIZE } from '../../src/constants.js'
-import DistanceEffect from '../../src/PannerNode/DistanceEffect.js'
+const assert = require('assert')
+const sinon = require('sinon')
+const { BLOCK_SIZE } = require('../../src/constants.js')
+const DistanceEffect = require('../../src/PannerNode/DistanceEffect.js')
 
 describe('DistanceEffect', function() {
 

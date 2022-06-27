@@ -1,6 +1,6 @@
-import assert from 'assert'
-import _ from 'underscore'
-import AudioBuffer from '../src/AudioBuffer.js'
+const assert = require('assert')
+const _ = require('underscore')
+const AudioBuffer = require('../src/AudioBuffer.js')
 
 describe('AudioBuffer', function() {
   it('should be created with the right attributes', function() {

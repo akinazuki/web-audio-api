@@ -1,3 +1,4 @@
+'use strict'
 class AudioBuffer {
   #sampleRate
   get sampleRate() { return this.#sampleRate }
@@ -91,4 +92,4 @@ class AudioBuffer {
 
 }
 
-export default AudioBuffer
+module.exports = AudioBuffer

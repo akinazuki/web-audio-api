@@ -1,8 +1,8 @@
-import assert from 'assert'
-import AudioBuffer from '../../src/AudioBuffer.js'
-import {BLOCK_SIZE} from '../../src/constants.js'
-import EqualPowerPanner from '../../src/PannerNode/EqualPowerPanner.js'
-import initHelpers from '../helpers.js'
+const assert = require('assert')
+const AudioBuffer = require('../../src/AudioBuffer.js')
+const {BLOCK_SIZE} = require('../../src/constants.js')
+const EqualPowerPanner = require('../../src/PannerNode/EqualPowerPanner.js')
+const initHelpers = require('../helpers.js')
 
 let helpers = initHelpers({ approx : 0.01 })
 

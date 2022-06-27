@@ -1,8 +1,8 @@
-import fs from 'fs'
-import assert from 'assert'
-import _ from 'underscore'
-import AudioContext from '../src/AudioContext.js'
-import AudioNode from '../src/AudioNode.js'
+const fs = require('fs')
+const assert = require('assert')
+const _ = require('underscore')
+const AudioContext = require('../src/AudioContext.js')
+const AudioNode = require('../src/AudioNode.js')
 
 describe('AudioContext', function() {
 

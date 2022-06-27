@@ -1,6 +1,6 @@
-import assert from 'assert'
-import _ from 'underscore'
-import AudioNode from '../src/AudioNode.js'
+const assert = require('assert')
+const _ = require('underscore')
+const AudioNode = require('../src/AudioNode.js')
 
 describe('AudioNode', function() {
 

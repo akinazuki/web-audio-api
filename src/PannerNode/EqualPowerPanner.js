@@ -1,5 +1,6 @@
-import Panner from './Panner.js'
-import * as mathUtils from '../mathUtils.js'
+'use strict'
+const Panner = require('./Panner')
+const mathUtils =  require('../mathUtils.js')
 
 // Use a 50ms smoothing / de-zippering time-constant.
 const SmoothingTimeConstant = 0.050
@@ -151,4 +152,4 @@ class EqualPowerPanner extends Panner {
 
 }
 
-export default EqualPowerPanner
+module.exports = EqualPowerPanner

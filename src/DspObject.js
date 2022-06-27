@@ -1,4 +1,4 @@
-import events from 'events'
+const events = require('events')
 
 class DspObject extends events.EventEmitter {
   #context
@@ -67,4 +67,4 @@ class DspObject extends events.EventEmitter {
 
 }
 
-export default DspObject
+module.exports = DspObject

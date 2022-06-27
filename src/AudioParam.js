@@ -1,8 +1,9 @@
-import DspObject from './DspObject.js'
-import { AudioInput } from './audioports.js'
-import AudioBuffer from './AudioBuffer.js'
-import { BLOCK_SIZE } from './constants.js'
-import { AutomationEventList, createExponentialRampToValueAutomationEvent, createLinearRampToValueAutomationEvent, createSetTargetAutomationEvent, createSetValueAutomationEvent, createSetValueCurveAutomationEvent } from 'automation-events';
+'use strict'
+const DspObject = require('./DspObject.js')
+const { AudioInput } = require('./audioports.js')
+const AudioBuffer = require('./AudioBuffer.js')
+const { BLOCK_SIZE } = require('./constants.js')
+const { AutomationEventList, createExponentialRampToValueAutomationEvent, createLinearRampToValueAutomationEvent, createSetTargetAutomationEvent, createSetValueAutomationEvent, createSetValueCurveAutomationEvent } = require('automation-events');
 
 class AudioParam extends DspObject {
 
@@ -96,4 +97,4 @@ class AudioParam extends DspObject {
 
 }
 
-export default AudioParam
+module.exports = AudioParam

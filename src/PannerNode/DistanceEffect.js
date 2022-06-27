@@ -1,3 +1,4 @@
+'use strict'
 const DistanceModelType = {
   inverse     : 'inverse',
   linear      : 'linear',
@@ -106,4 +107,4 @@ class DistanceEffect {
 
 }
 
-export default DistanceEffect
+module.exports = DistanceEffect

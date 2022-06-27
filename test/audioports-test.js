@@ -1,10 +1,10 @@
-import assert from 'assert'
-import _ from 'underscore'
-import * as utils from '../src/utils.js'
-import {AudioInput, AudioOutput} from '../src/audioports.js'
-import AudioBuffer from '../src/AudioBuffer.js'
-import {BLOCK_SIZE} from '../src/constants.js'
-import initHelpers from './helpers.js'
+const assert = require('assert')
+const _ = require('underscore')
+const utils = require('../src/utils.js')
+const {AudioInput, AudioOutput} = require('../src/audioports.js')
+const AudioBuffer = require('../src/AudioBuffer.js')
+const {BLOCK_SIZE} = require('../src/constants.js')
+const initHelpers = require('./helpers.js')
 
 const {assertAllValuesApprox} = initHelpers()
 

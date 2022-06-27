@@ -1,5 +1,5 @@
-import assert from 'assert'
-import Panner from '../../src/PannerNode/Panner.js'
+const assert = require('assert')
+const Panner = require('../../src/PannerNode/Panner.js')
 
 describe('Panner', function() {
   it('must not be used directly', function() {

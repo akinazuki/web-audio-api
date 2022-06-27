@@ -1,6 +1,6 @@
-import assert from 'assert'
-import _ from 'underscore'
-import DspObject from '../src/DspObject.js'
+const assert = require('assert')
+const _ = require('underscore')
+const DspObject = require('../src/DspObject.js')
 
 describe('DspObject', function() {
 

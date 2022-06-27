@@ -1,3 +1,4 @@
+'use strict'
 /**
  * The abstract class to extend in EqualPowerPanner, HRTFPanner(not implemented).
  */
@@ -10,4 +11,4 @@ class Panner {
 
 }
 
-export default Panner
+module.exports = Panner

@@ -1,10 +1,10 @@
-import assert from 'assert'
-import _ from 'underscore'
-import AudioBuffer from '../src/AudioBuffer.js'
-import { BLOCK_SIZE } from '../src/constants.js'
-import GainNode from '../src/GainNode.js'
-import AudioNode from '../src/AudioNode.js'
-import initHelpers from './helpers.js'
+const assert = require('assert')
+const _ = require('underscore')
+const AudioBuffer = require('../src/AudioBuffer.js')
+const { BLOCK_SIZE } = require('../src/constants.js')
+const GainNode = require('../src/GainNode.js')
+const AudioNode = require('../src/AudioNode.js')
+const initHelpers = require('./helpers.js')
 
 const helpers = initHelpers()
 

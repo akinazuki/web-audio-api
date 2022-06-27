@@ -1,4 +1,5 @@
-import { BLOCK_SIZE } from './constants.js'
+'use strict'
+const { BLOCK_SIZE } = require('./constants.js')
 
 class ChannelMixing {
 
@@ -164,7 +165,6 @@ class ChannelMixing {
     var dataL = inBuffer.getChannelData(0)
       , dataR = inBuffer.getChannelData(1)
       , dataC = inBuffer.getChannelData(2)
-      , dataLFE = inBuffer.getChannelData(3)
       , dataSL = inBuffer.getChannelData(4)
       , dataSR = inBuffer.getChannelData(5)
       , dataOut = outBuffer.getChannelData(0)
@@ -177,7 +177,6 @@ class ChannelMixing {
     var dataL = inBuffer.getChannelData(0)
       , dataR = inBuffer.getChannelData(1)
       , dataC = inBuffer.getChannelData(2)
-      , dataLFE = inBuffer.getChannelData(3)
       , dataSL = inBuffer.getChannelData(4)
       , dataSR = inBuffer.getChannelData(5)
       , dataOutL = outBuffer.getChannelData(0)
@@ -193,7 +192,6 @@ class ChannelMixing {
     var dataL = inBuffer.getChannelData(0)
       , dataR = inBuffer.getChannelData(1)
       , dataC = inBuffer.getChannelData(2)
-      , dataLFE = inBuffer.getChannelData(3)
       , dataSL = inBuffer.getChannelData(4)
       , dataSR = inBuffer.getChannelData(5)
       , dataOutL = outBuffer.getChannelData(0)
@@ -214,4 +212,4 @@ class ChannelMixing {
   }
 }
 
-export default ChannelMixing
+module.exports = ChannelMixing

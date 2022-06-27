@@ -1,2 +1,5 @@
-export const BLOCK_SIZE = 128
-export const MAX_CHANNELS = 8
+'use strict'
+module.exports = {
+    BLOCK_SIZE: 128,
+    MAX_CHANNELS: 8
+}

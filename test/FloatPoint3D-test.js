@@ -1,6 +1,6 @@
-import assert from 'assert'
-import FloatPoint3D from '../src/FloatPoint3D.js'
-import initHelpers from './helpers.js'
+const assert = require('assert')
+const FloatPoint3D = require('../src/FloatPoint3D.js')
+const initHelpers = require('./helpers.js')
 
 const helpers = initHelpers()
 

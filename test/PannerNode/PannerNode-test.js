@@ -1,10 +1,10 @@
-import assert from 'assert'
-import AudioBuffer from '../../src/AudioBuffer.js'
-import {BLOCK_SIZE} from '../../src/constants.js'
-import PannerNode from '../../src/PannerNode.js'
-import AudioNode from '../../src/AudioNode.js'
-import AudioListener from '../../src/AudioListener.js'
-import initHelpers from '../helpers.js'
+const assert = require('assert')
+const AudioBuffer = require('../../src/AudioBuffer.js')
+const {BLOCK_SIZE} = require('../../src/constants.js')
+const PannerNode = require('../../src/PannerNode.js')
+const AudioNode = require('../../src/AudioNode.js')
+const AudioListener = require('../../src/AudioListener.js')
+const initHelpers = require('../helpers.js')
 
 describe('PannerNode', function() {
 

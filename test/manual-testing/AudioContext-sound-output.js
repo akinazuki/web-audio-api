@@ -1,8 +1,8 @@
 // if (require.main === module) { // Just to avoid mocha running this
 
-import fs from 'fs'
-import AudioContext from '../../src/AudioContext.js'
-import Speaker from 'speaker'
+const fs = require('fs')
+const AudioContext = require('../../src/AudioContext.js')
+const Speaker = require('speaker')
 
 const context = new AudioContext
 

@@ -1,4 +1,5 @@
-import EqualPowerPanner from './EqualPowerPanner.js'
+'use strict'
+const EqualPowerPanner = require('./EqualPowerPanner.js')
 
 const PanningModelType = {
   equalpower : 'equalpower',
@@ -48,4 +49,4 @@ class PannerProvider {
 
 }
 
-export default PannerProvider
+module.exports = PannerProvider

@@ -1,13 +1,13 @@
-import events from 'events'
-import { BufferEncoder, decodeAudioData } from './utils.js'
-import { BLOCK_SIZE } from './constants.js'
-import AudioBuffer from './AudioBuffer.js'
-import AudioListener from './AudioListener.js'
-import AudioDestinationNode from './AudioDestinationNode.js'
-import AudioBufferSourceNode from './AudioBufferSourceNode.js'
-import GainNode from './GainNode.js'
-import ScriptProcessorNode from './ScriptProcessorNode.js'
-import PannerNode from './PannerNode/index.js'
+const events = require('events')
+const { BufferEncoder, decodeAudioData } = require('./utils.js')
+const { BLOCK_SIZE } = ('./constants.js')
+const AudioBuffer = require('./AudioBuffer.js')
+const AudioListener = require('./AudioListener.js')
+const AudioDestinationNode = require('./AudioDestinationNode.js')
+const AudioBufferSourceNode = require('./AudioBufferSourceNode.js')
+const GainNode = require('./GainNode.js')
+const ScriptProcessorNode = require('./ScriptProcessorNode.js')
+const PannerNode = require('./PannerNode/index.js')
 
 
 class AudioContext extends events.EventEmitter {
@@ -161,4 +161,4 @@ class AudioContext extends events.EventEmitter {
   }
 }
 
-export default AudioContext
+module.exports = AudioContext

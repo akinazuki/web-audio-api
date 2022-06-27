@@ -1,8 +1,8 @@
-import assert from 'assert'
-import AudioBuffer from '../src/AudioBuffer.js'
-import AudioBufferSourceNode from '../src/AudioBufferSourceNode.js'
-import { BLOCK_SIZE } from '../src/constants.js'
-import initHelpers from './helpers.js'
+const assert = require('assert')
+const AudioBuffer = require('../src/AudioBuffer.js')
+const AudioBufferSourceNode = require('../src/AudioBufferSourceNode.js')
+const { BLOCK_SIZE } = require('../src/constants.js')
+const initHelpers = require('./helpers.js')
 
 const helpers = initHelpers()
 

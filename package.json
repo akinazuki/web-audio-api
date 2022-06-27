@@ -1,13 +1,12 @@
 {
-  "name": "web-audio-api",
-  "version": "0.2.2",
+  "name": "web-audio-api-cjs",
+  "version": "0.2.4",
   "author": "Sébastien Piquemal <sebpiq@gmail.com>",
   "contributors": [
     "Dmitry Iv <df.creative@gmail.com>"
   ],
   "description": "Node.js implementation of Web audio API",
   "repository": "audiojs/web-audio-api",
-  "type": "module",
   "keywords": [
     "audio",
     "audiojs",

@@ -1,8 +1,8 @@
-import events from 'events'
-import * as utils from './utils.js'
-import AudioBuffer from './AudioBuffer.js'
-import { BLOCK_SIZE } from './constants.js'
-import ChannelMixing from './ChannelMixing.js'
+'use strict'
+const events = require('events')
+const AudioBuffer = require('./AudioBuffer.js')
+const { BLOCK_SIZE } = require('./constants.js')
+const ChannelMixing = require('./ChannelMixing.js')
 
 
 class AudioPort extends events.EventEmitter {
@@ -86,7 +86,7 @@ class AudioInput extends AudioPort {
   }
 
   _tick() {
-    var i, ch, inNumChannels, inBuffers = this.sources.map(function(source) {
+    var inBuffers = this.sources.map(function(source) {
       return source._tick()
     })
 
@@ -164,7 +164,7 @@ class AudioOutput extends AudioPort {
 
 }
 
-export {
+module.exports = {
   AudioOutput,
   AudioInput
 }
